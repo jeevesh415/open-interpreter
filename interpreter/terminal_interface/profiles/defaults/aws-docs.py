@@ -5,7 +5,7 @@ This is an Open Interpreter profile. It is specialized for searching AWS documen
 # Configure Open Interpreter
 from interpreter import interpreter
 
-interpreter.llm.model = "claude-3-5-sonnet-20240620"
+interpreter.llm.model = "claude-sonnet-4-6"
 interpreter.computer.import_computer_api = True
 interpreter.llm.supports_functions = True
 interpreter.llm.supports_vision = True

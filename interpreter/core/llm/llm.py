@@ -114,8 +114,8 @@ class Llm:
             "claude-3.5-sonnet",
             "claude-3-5-sonnet",
         ]:
-            model = "claude-3-5-sonnet-20240620"
-            self.model = "claude-3-5-sonnet-20240620"
+            model = "claude-sonnet-4-6"
+            self.model = "claude-sonnet-4-6"
         # Setup our model endpoint
         if model == "i":
             model = "openai/i"

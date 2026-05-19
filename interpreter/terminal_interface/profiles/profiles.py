@@ -170,11 +170,11 @@ def apply_profile(interpreter, profile, profile_path):
 
                 try:
                     if profile["llm"]["model"] == "gpt-4":
-                        text = text.replace("gpt-4", "gpt-4o")
-                        profile["llm"]["model"] = "gpt-4o"
+                        text = text.replace("gpt-4", "gpt-4.1")
+                        profile["llm"]["model"] = "gpt-4.1"
                     elif profile["llm"]["model"] == "gpt-4-turbo-preview":
-                        text = text.replace("gpt-4-turbo-preview", "gpt-4o")
-                        profile["llm"]["model"] = "gpt-4o"
+                        text = text.replace("gpt-4-turbo-preview", "gpt-4.1")
+                        profile["llm"]["model"] = "gpt-4.1"
                 except:
                     raise
                     pass  # fine

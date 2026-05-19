@@ -6,7 +6,7 @@ Make sure to set GROQ_API_KEY environment variable to your API key.
 
 from interpreter import interpreter
 
-interpreter.llm.model = "groq/llama-3.1-70b-versatile"
+interpreter.llm.model = "groq/llama-3.3-70b-versatile"
 
 interpreter.computer.import_computer_api = True
 

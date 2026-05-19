@@ -552,7 +552,7 @@ Use """ to write multi-line messages.
         "claude-3.5-sonnet",
         "claude-3-5-sonnet",
     ]:
-        interpreter.llm.model = "claude-3-5-sonnet-20240620"
+        interpreter.llm.model = "claude-sonnet-4-6"
 
     if not args.server:
         # This SHOULD RUN WHEN THE SERVER STARTS. But it can't rn because

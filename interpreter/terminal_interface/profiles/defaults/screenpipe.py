@@ -7,7 +7,7 @@ It leverages Llama 3.1 70b served by Groq and requires the environment variable 
 from interpreter import interpreter
 from datetime import datetime, timezone
 
-interpreter.llm.model = "groq/llama-3.1-70b-versatile"
+interpreter.llm.model = "groq/llama-3.3-70b-versatile"
 interpreter.computer.import_computer_api = False
 interpreter.llm.supports_functions = False
 interpreter.llm.supports_vision = False

@@ -8,7 +8,7 @@ from interpreter import interpreter
 interpreter.tts = "openai"
 
 # Connect your 01 to a language model
-interpreter.llm.model = "claude-3.5"
+interpreter.llm.model = "claude-sonnet-4-6"
 # interpreter.llm.model = "gpt-4o-mini"
 interpreter.llm.context_window = 100000
 interpreter.llm.max_tokens = 4096

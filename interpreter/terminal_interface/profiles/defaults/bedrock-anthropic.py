@@ -16,7 +16,7 @@ More information can be found here: https://docs.litellm.ai/docs/providers/bedro
 
 from interpreter import interpreter
 
-interpreter.llm.model = "bedrock/anthropic.claude-3-sonnet-20240229-v1:0"
+interpreter.llm.model = "bedrock/anthropic.claude-sonnet-4-6"
 
 interpreter.computer.import_computer_api = True
 

@@ -9,7 +9,7 @@ import os
 obsidian_directory = os.environ.get("OBSIDIAN_VAULT_PATH")
 
 # You can update to the model you want to use
-interpreter.llm.model = "groq/llama-3.1-70b-versatile"
+interpreter.llm.model = "groq/llama-3.3-70b-versatile"
 
 interpreter.computer.import_computer_api = False
 

@@ -17,7 +17,7 @@ from datetime import date
 today = date.today()
 
 # LLM Settings
-interpreter.llm.model = "groq/llama-3.1-70b-versatile"
+interpreter.llm.model = "groq/llama-3.3-70b-versatile"
 interpreter.llm.context_window = 110000
 interpreter.llm.max_tokens = 4096
 interpreter.llm.api_base = "https://api.example.com"
